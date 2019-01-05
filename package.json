@@ -1,0 +1,32 @@
+{
+  "name": "@marketto/js-logger",
+  "version": "1.0.0",
+  "description": "Node.js Log utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage": "nyc report --reporter=lcovonly | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marketto/jsLogger.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "log",
+    "colors"
+  ],
+  "author": "Marco Ricupero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marketto/jsLogger/issues"
+  },
+  "homepage": "https://github.com/Marketto/jsLogger#readme",
+  "devDependencies": {
+    "sonarqube-scanner": "^2.1.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
