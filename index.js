@@ -125,8 +125,8 @@ class Logger {
     }
 }
 
-exports.Logger = Logger;
-exports.global = cfg => {
+module.exports.Logger = Logger;
+module.exports.global = cfg => {
     global.logger = global.logger || new Logger(cfg);
     return global.logger;
 };
